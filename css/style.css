@@ -49,3 +49,29 @@ header nav ul.barra-navegacion{
     text-decoration: none;
 }
 
+section.portada-inicio{
+    display: flex;
+
+    align-items: center;
+
+    gap: 2rem;
+
+    object-fit: cover;
+
+
+
+
+}
+
+
+.foto-cocinero{
+    max-width: 15%;
+
+    height: 15%;
+}
+
+.foto-libro{ 
+    max-width: 30%;
+
+    height: 30% ;
+}

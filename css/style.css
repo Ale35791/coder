@@ -1,11 +1,51 @@
-header{color: white;
-background-color: rgb(120, 86, 22);}
+reset.css
 
-header ul{color: white;
-text-decoration: none;}
+body{
+    padding: 1rem;
+}
+
 
 footer{background-color: grey;}
 
 h5{color: white;}
 
 footer p{color: white;}
+
+
+header.encabezado{
+    display: grid;
+
+    grid-template-columns: auto 1fr;
+
+    align-items: center;
+
+    color: white;
+    
+    background-color: rgb(120, 86, 22);
+
+    padding: 1rem;
+}
+
+
+
+
+header nav ul.barra-navegacion{
+    display: flex;
+
+    align-items: center;
+
+    justify-items: right;
+
+    gap: 1rem;
+
+    list-style: none;
+
+    justify-content: right;
+
+}
+
+.barra-navegacion li a{
+    color: white;
+    text-decoration: none;
+}
+

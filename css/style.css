@@ -1,20 +1,25 @@
-*
-
-body{
+* 
+body.body-index{
     padding: 1rem;
 
     background-color: burlywood;
 }
 
 
-footer{background-color: grey;}
+footer {
+    background-color: grey;
+}
 
-h5{color: white;}
+h5 {
+    color: white;
+}
 
-footer p{color: white;}
+footer p {
+    color: white;
+}
 
 
-header.encabezado{
+header.encabezado {
     display: grid;
 
     grid-template-columns: auto 1fr;
@@ -22,18 +27,18 @@ header.encabezado{
     align-items: center;
 
     color: white;
-    
+
     background-color: rgb(120, 86, 22);
 
     padding: 1rem;
 
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 
 
 
-header nav ul.barra-navegacion{
+header nav ul.barra-navegacion {
     display: flex;
 
     align-items: center;
@@ -48,12 +53,12 @@ header nav ul.barra-navegacion{
 
 }
 
-.barra-navegacion li a{
+.barra-navegacion li a {
     color: white;
     text-decoration: none;
 }
 
-section.portada-inicio{
+section.portada-inicio {
     display: flex;
 
     align-items: center;
@@ -63,7 +68,7 @@ section.portada-inicio{
     object-fit: cover;
 
     text-align: justify;
-    
+
     padding-left: 7rem;
 
     padding-right: 7rem;
@@ -76,25 +81,25 @@ section.portada-inicio{
 
 }
 
-section.portada-inicio h2{
+section.portada-inicio h2 {
     text-align: center;
 }
 
 
-.foto-cocinero{
+.foto-cocinero {
     max-width: 15%;
 
     height: 15%;
 }
 
 
-.foto-libro{ 
+.foto-libro {
     max-width: 30%;
 
-    height: 30% ;
+    height: 30%;
 }
 
-.section-index{
+.section-index {
     display: flex;
 
     border: 8px solid rgba(177, 106, 0, 0.692);
@@ -102,17 +107,17 @@ section.portada-inicio h2{
     justify-content: space-between;
 }
 
-.section-index img{
+.section-index img {
     width: 400px;
 
     height: 400px;
-    
+
     align-items: center;
 
     justify-items: center;
 }
 
-.section-index p{
+.section-index p {
     width: 25rem;
 
     text-align: justify;
@@ -121,7 +126,7 @@ section.portada-inicio h2{
 
 }
 
-.section-index a{
+.section-index a {
     align-items: center;
 
     justify-content: center;
@@ -137,7 +142,7 @@ section.portada-inicio h2{
     display: flex;
 }
 
-footer{
+footer {
 
     justify-items: center;
 
@@ -146,8 +151,51 @@ footer{
     text-align: center;
 }
 
-footer h5{
+footer h5 {
     font-size: 1.2rem;
+}
+
+
+header.header-saludables {
+    background-color: rgb(3, 145, 10);
+
+    font-size: 1.6rem;
+
+    display: grid;
+
+    grid-template-columns: auto 1fr;
+
+    align-items: center;
+
+    padding: 1rem;
+}
+
+header nav ul {
+    display: flex;
+
+    align-items: center;
+
+    justify-items: right;
+
+    gap: 1rem;
+
+    list-style: none;
+
+    justify-content: right;
+
+    text-decoration: none;
+
+    color: white;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 2rem;
 }
 
 
@@ -160,132 +208,132 @@ footer h5{
 
 
 
-@media (min-width: 320px) and (max-width: 480px){
-    header.encabezado{
+@media (min-width: 320px) and (max-width: 480px) {
+    header.encabezado {
         display: grid;
 
         grid-template-columns: auto 1fr;
-    
+
         align-items: center;
-    
+
         color: white;
-        
+
         background-color: rgb(120, 86, 22);
-    
+
         padding: 2rem;
-    
+
         font-size: 1rem;
     }
 
-    header nav ul.barra-navegacion{
+    header nav ul.barra-navegacion {
         display: flex;
 
         flex-direction: column;
-    
+
         align-items: center;
-    
+
         justify-items: right;
-    
+
         list-style: none;
-    
+
         justify-content: right;
-        
+
         font-size: 1rem;
-    
+
     }
 
-    section.portada-inicio{
+    section.portada-inicio {
         display: flex;
 
         flex-direction: column;
-    
+
         align-items: center;
-    
+
         gap: 0.5rem;
-    
+
         object-fit: cover;
-    
+
         text-align: justify;
-        
+
         padding-left: 0.5rem;
-    
+
         padding-right: 1rem;
-    
+
         padding-top: 1rem;
-    
+
         padding-bottom: 1rem;
-    
+
         font-size: 1rem;
     }
-    
-    section.portada-inicio h2{
+
+    section.portada-inicio h2 {
         text-align: center;
     }
-    
-    
-    .foto-cocinero{
+
+
+    .foto-cocinero {
         max-width: 50%;
-    
+
         height: 60%;
     }
-    
-    
-    .foto-libro{ 
+
+
+    .foto-libro {
         max-width: 70%;
-    
-        height: 70% ;
+
+        height: 70%;
     }
 
-    .section-index{
+    .section-index {
         display: grid;
 
         grid-template-columns: 1fr 1fr;
-        
+
         grid-template-rows: 1fr 1fr;
-    
+
         border: 8px solid rgba(177, 106, 0, 0.692);
-    
+
         justify-content: space-between;
 
         gap: 1rem;
 
     }
-    
-    .section-index img{
+
+    .section-index img {
         width: 100%;
-    
+
         height: 30%;
-        
+
         align-items: center;
-    
+
         justify-items: center;
     }
-    
-    .section-index p{
+
+    .section-index p {
         width: 100%;
-    
+
         text-align: justify;
-    
+
         font-size: 1rem;
-    
-    }
-    
-    .section-index a{
-        align-items: center;
-    
-        justify-content: center;
-    
-        text-decoration: none;
-    
-        color: white;
-    
-        background-color: rgb(120, 86, 22);
-    
-        padding: 0.5rem;
-    
+
     }
 
-    .section-index h3{
+    .section-index a {
+        align-items: center;
+
+        justify-content: center;
+
+        text-decoration: none;
+
+        color: white;
+
+        background-color: rgb(120, 86, 22);
+
+        padding: 0.5rem;
+
+    }
+
+    .section-index h3 {
         justify-content: end;
     }
 

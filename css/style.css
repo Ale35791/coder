@@ -196,6 +196,8 @@ footer h5{
 
     section.portada-inicio{
         display: flex;
+
+        flex-direction: column;
     
         align-items: center;
     
@@ -205,7 +207,7 @@ footer h5{
     
         text-align: justify;
         
-        padding-left: 1rem;
+        padding-left: 0.5rem;
     
         padding-right: 1rem;
     
@@ -222,16 +224,16 @@ footer h5{
     
     
     .foto-cocinero{
-        max-width: 30%;
+        max-width: 50%;
     
-        height: 40%;
+        height: 60%;
     }
     
     
     .foto-libro{ 
-        max-width: 30%;
+        max-width: 70%;
     
-        height: 60% ;
+        height: 70% ;
     }
 
     .section-index{

@@ -1,6 +1,9 @@
+*
 
 body{
     padding: 1rem;
+
+    background-color: burlywood;
 }
 
 
@@ -23,6 +26,8 @@ header.encabezado{
     background-color: rgb(120, 86, 22);
 
     padding: 1rem;
+
+    font-size: 1.6rem;
 }
 
 
@@ -57,9 +62,22 @@ section.portada-inicio{
 
     object-fit: cover;
 
+    text-align: justify;
+    
+    padding-left: 7rem;
 
+    padding-right: 7rem;
 
+    padding-top: 3rem;
 
+    padding-bottom: 3rem;
+
+    font-size: 1.3rem;
+
+}
+
+section.portada-inicio h2{
+    text-align: center;
 }
 
 
@@ -69,8 +87,67 @@ section.portada-inicio{
     height: 15%;
 }
 
+
 .foto-libro{ 
     max-width: 30%;
 
     height: 30% ;
 }
+
+.section-index{
+    display: flex;
+
+    border: 8px solid rgba(177, 106, 0, 0.692);
+
+    justify-content: space-between;
+}
+
+.section-index img{
+    width: 400px;
+
+    height: 400px;
+    
+    align-items: center;
+
+    justify-items: center;
+}
+
+.section-index p{
+    width: 25rem;
+
+    text-align: justify;
+
+    font-size: 1.1rem;
+
+}
+
+.section-index a{
+    align-items: center;
+
+    justify-content: center;
+
+    text-decoration: none;
+
+    color: white;
+
+    background-color: rgb(120, 86, 22);
+
+    padding: 0.5rem;
+
+    display: flex;
+}
+
+footer{
+
+    justify-items: center;
+
+    align-items: center;
+
+    text-align: center;
+}
+
+footer h5{
+    font-size: 1.2rem;
+
+}
+    

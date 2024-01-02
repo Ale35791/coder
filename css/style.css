@@ -1,5 +1,4 @@
-* 
-body.body-index{
+* body.body-index {
     padding: 1rem;
 
     background-color: burlywood;
@@ -81,7 +80,7 @@ section.portada-inicio {
 
 }
 
-section.portada-inicio h2 {
+section h2 {
     text-align: center;
 }
 
@@ -188,7 +187,7 @@ header nav ul {
     color: white;
 }
 
-li a{
+li a {
     text-decoration: none;
     color: white;
 }
@@ -198,11 +197,78 @@ h1 {
     font-size: 2rem;
 }
 
+section.section-saludables {
+    display: flex;
+
+    border: 8px solid green;
+}
+
+section article h3 {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
 
 
+section article img {
+    width: 400px;
+
+    height: 400px;
+}
 
 
+.main-saludables {
+    background-color: rgb(97, 173, 97);
+}
 
+main section video {
+    height: 500px;
+
+    width: 500px;
+}
+
+main section img {
+    width: 400px;
+
+    height: 400px;
+}
+
+.section-saludables h3{
+    justify-content: center;
+
+    align-items: center;
+
+    justify-items: center;
+
+    display: flex;
+}
+
+.section-saludables {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.section-saludables img {
+    width: 400px;
+
+    height: 400px;
+
+    align-items: center;
+
+    justify-items: center;
+}
+
+.section-saludables p {
+    width: 25rem;
+
+    text-align: justify;
+
+    font-size: 1.1rem;
+}
 
 
 
@@ -336,5 +402,12 @@ h1 {
     .section-index h3 {
         justify-content: end;
     }
+
+
+    
+
+
+
+
 
 }

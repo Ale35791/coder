@@ -3,21 +3,70 @@
   border: 0;
 }
 
-body.body-index {
-  padding: 1rem;
-  background-color: burlywood;
+section h2 {
+  text-align: center;
 }
 
 footer {
   background-color: grey;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+footer p {
+  color: white;
 }
 
 h5 {
   color: white;
+  font-size: 1.2rem;
 }
 
-footer p {
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-items: right;
+  gap: 1rem;
+  list-style: none;
+  justify-content: right;
+  text-decoration: none;
   color: white;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+section div h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section div img {
+  width: 400px;
+  height: 400px;
+}
+
+main section video {
+  height: 500px;
+  width: 500px;
+}
+
+main section img {
+  width: 400px;
+  height: 400px;
+}
+
+body.body-index {
+  padding: 1rem;
+  background-color: burlywood;
 }
 
 header.encabezado {
@@ -28,20 +77,6 @@ header.encabezado {
   background-color: rgb(120, 86, 22);
   padding: 1rem;
   font-size: 2rem;
-}
-
-header nav ul.barra-navegacion {
-  display: flex;
-  align-items: center;
-  justify-items: right;
-  gap: 1rem;
-  list-style: none;
-  justify-content: right;
-}
-
-.barra-navegacion li a {
-  color: white;
-  text-decoration: none;
 }
 
 section.portada-inicio {
@@ -55,10 +90,6 @@ section.portada-inicio {
   padding-top: 3rem;
   padding-bottom: 3rem;
   font-size: 1.3rem;
-}
-
-section h2 {
-  text-align: center;
 }
 
 .foto-cocinero {
@@ -98,97 +129,6 @@ section h2 {
   background-color: rgb(120, 86, 22);
   padding: 0.5rem;
   display: flex;
-}
-
-footer {
-  justify-items: center;
-  align-items: center;
-  text-align: center;
-}
-
-footer h5 {
-  font-size: 1.2rem;
-}
-
-header.header-saludables {
-  background-color: rgb(3, 145, 10);
-  font-size: 1.6rem;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
-  padding: 1rem;
-}
-
-header nav ul {
-  display: flex;
-  align-items: center;
-  justify-items: right;
-  gap: 1rem;
-  list-style: none;
-  justify-content: right;
-  text-decoration: none;
-  color: white;
-}
-
-li a {
-  text-decoration: none;
-  color: white;
-}
-
-h1 {
-  color: white;
-  font-size: 2rem;
-}
-
-section.section-saludables {
-  display: flex;
-  border: 8px solid green;
-  justify-content: space-between;
-}
-
-section article h3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-section article img {
-  width: 400px;
-  height: 400px;
-}
-
-.main-saludables {
-  background-color: rgb(97, 173, 97);
-}
-
-main section video {
-  height: 500px;
-  width: 500px;
-}
-
-main section img {
-  width: 400px;
-  height: 400px;
-}
-
-.section-saludables h3 {
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
-  display: flex;
-}
-
-.section-saludables img {
-  width: 400px;
-  height: 400px;
-  align-items: center;
-  justify-items: center;
-}
-
-.section-saludables p {
-  width: 25rem;
-  text-align: justify;
-  font-size: 1.1rem;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -264,6 +204,47 @@ main section img {
   .section-index h3 {
     justify-content: end;
   }
+}
+header.header-saludables {
+  background-color: rgb(3, 145, 10);
+  font-size: 1.6rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 1rem;
+}
+
+section.section-saludables {
+  display: flex;
+  border: 8px solid green;
+  justify-content: space-between;
+}
+
+.main-saludables {
+  background-color: rgb(97, 173, 97);
+}
+
+.section-saludables h3 {
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  display: flex;
+}
+
+.section-saludables img {
+  width: 400px;
+  height: 400px;
+  align-items: center;
+  justify-items: center;
+}
+
+.section-saludables p {
+  width: 25rem;
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
   header.header-saludables {
     display: grid;
     grid-template-columns: auto 1fr;

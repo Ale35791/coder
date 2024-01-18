@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    border: 0;
+} 
+
+section h2 {
+    text-align: center;
+}
+
+
+footer {
+    background-color: grey;
+
+    justify-items: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    p {
+        color: white;
+    }
+}
+
+h5 {
+    color: white;
+
+    font-size: 1.2rem;
+}
+
+header nav ul{
+    display: flex;
+
+    align-items: center;
+
+    justify-items: right;
+
+    gap: 1rem;
+
+    list-style: none;
+
+    justify-content: right;
+
+    text-decoration: none;
+
+    color: white;
+}
+
+
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+section div h3 {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+section div img {
+    width: 400px;
+
+    height: 400px;
+}
+
+main section video {
+    height: 500px;
+
+    width: 500px;
+}
+
+main section img {
+    width: 400px;
+
+    height: 400px;
+}

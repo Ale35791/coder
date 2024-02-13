@@ -81,6 +81,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+li a:hover {
+  color: black;
+}
+
+h3 a:hover {
+  scale: 2;
+  color: black;
+}
+
 body.body-index {
   padding: 1rem;
   background: linear-gradient(burlywood, rgb(177, 119, 45));

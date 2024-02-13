@@ -1,5 +1,5 @@
 header.header-saludables {
-    background-color: rgb(3, 145, 10);
+    background: linear-gradient( rgb(3, 145, 10), rgb(1, 70, 1));
 
     font-size: 1.6rem;
 
@@ -13,7 +13,7 @@ header.header-saludables {
 }
 
 .body-saludables {
-    background-color: rgb(97, 173, 97);
+    background-color: rgb(2, 107, 2);
     padding: 1rem;
     color: white;
 
@@ -53,7 +53,7 @@ section.section-saludables {
 }
 
 .main-saludables {
-    background-color: rgb(97, 173, 97);
+    background: radial-gradient( rgb(97, 173, 97), rgb(2, 107, 2));
 }
 
 .section-saludables h3 {
@@ -85,6 +85,11 @@ section.section-saludables {
     font-size: 1.1rem;
 }
 
+.ing-ensalada li{
+    display: flex;
+
+    flex-direction: column;
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
 

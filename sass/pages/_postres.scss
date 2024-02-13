@@ -1,5 +1,5 @@
 header.header-postres {
-    background-color: rgba(179, 34, 159, 0.849);
+    background: linear-gradient( rgb(231, 62, 236),rgba(179, 34, 159, 0.849));
 
     font-size: 1.6rem;
 
@@ -13,7 +13,7 @@ header.header-postres {
 }
 
 .body-postres {
-    background-color: rgb(202, 104, 181);
+    background-color: rgba(179, 34, 159, 0.849);
     padding: 1rem;
     color: white;
 
@@ -53,7 +53,7 @@ section.section-postres {
 }
 
 .main-postres {
-    background-color:  rgb(202, 104, 181);
+    background: radial-gradient( rgb(235, 105, 240),rgba(179, 34, 159, 0.849));
 }
 
 .section-postres h3 {

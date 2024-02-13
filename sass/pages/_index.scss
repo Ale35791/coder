@@ -1,7 +1,7 @@
 body.body-index {
     padding: 1rem;
 
-    background-color: burlywood;
+    background: linear-gradient( burlywood, rgb(177, 119, 45));
 }
 
 
@@ -14,12 +14,15 @@ header.encabezado {
 
     color: white;
 
-    background-color: rgb(120, 86, 22);
+    background: linear-gradient( rgb(120, 86, 22), rgb(150, 128, 8));
 
     padding: 1rem;
 
     font-size: 2rem;
 }
+
+
+
 
 section.portada-inicio {
     display: flex;
@@ -47,6 +50,8 @@ section.portada-inicio {
     max-width: 15%;
 
     height: 15%;
+
+    
 }
 
 
